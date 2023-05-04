@@ -1665,7 +1665,7 @@ The CA SHALL reject a certificate request if one or more of the following occurs
     
        (i) Big-endian 32-bit, little-endian 32-bit, and little-endian 64-bit architecture;
        (ii) Process ID of 0 to 32767, inclusive;
-       (iii) All RSA Public Key lengths supported by the CA up to and including 4096 bits; and
+       (iii) All RSA Public Key lengths supported by the CA up to and including 4096 bits and all ECDSA Public Key lengths supported by the CA up to and including 521 bits; and
        (iv) rnd, nornd, and noreadrnd OpenSSL random file state.
 
     c. In the case of Close Primes vulnerability (https://fermatattack.secvuln.info/), the CA SHALL reject weak keys identified within 100 rounds using Fermat’s factorization method.
