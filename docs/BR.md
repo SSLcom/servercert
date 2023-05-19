@@ -1206,7 +1206,7 @@ The CA SHALL revoke a Certificate within 24 hours if one or more of the followin
 1. The Subscriber requests in writing that the CA revoke the Certificate;
 2. The Subscriber notifies the CA that the original certificate request was not authorized and does not retroactively grant authorization;
 3. The CA obtains evidence that the Subscriber's Private Key corresponding to the Public Key in the Certificate suffered a Key Compromise;
-4. The CA is made aware of a demonstrated or proven method that can easily compute the Subscriber's Private Key (such as those identified in section 6.1.1.3(4));
+4. The CA is made aware of a demonstrated or proven method that can easily compute the Subscriber's Private Key (such as those identified in section 6.1.1.3(5));
 5. The CA obtains evidence that the validation of domain authorization or control for any Fully-Qualified Domain Name or IP address in the Certificate should not be relied upon.
 
 The CA SHOULD revoke a certificate within 24 hours and MUST revoke a Certificate within 5 days if one or more of the following occurs:
